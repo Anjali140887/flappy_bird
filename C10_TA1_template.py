@@ -7,8 +7,6 @@ screen = pygame.display.set_mode((width,height))
 images={}
 images["bg1"] = pygame.image.load("D:/Flappy for AI/bg1.png").convert_alpha()
 images["base"] = pygame.image.load("D:/Flappy for AI/base.png").convert_alpha()
-images["bird"] = pygame.image.load("D:/Flappy for AI/bird.png").convert_alpha()
-
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
