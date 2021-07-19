@@ -5,8 +5,8 @@ width=400
 height=600
 screen = pygame.display.set_mode((width,height))
 images={}
-images["bg1"] = pygame.image.load("C:/Users/NASCA/Desktop/Flappy for AI/Flappy for AI/bg1.png").convert_alpha()
-images["base"] = pygame.image.load("C:/Users/NASCA/Desktop/Flappy for AI/Flappy for AI/base.png").convert_alpha()
+images["bg1"] = pygame.image.load("D:/Flappy for AI/bg1.png").convert_alpha()
+images["base"] = pygame.image.load("D:/Flappy for AI/base.png").convert_alpha()
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
