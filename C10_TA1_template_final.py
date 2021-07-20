@@ -11,4 +11,3 @@
 
     
 #Quit the game outside the loop   
-{"mode":"full","isActive":false}
