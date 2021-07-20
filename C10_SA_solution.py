@@ -13,12 +13,6 @@ class Bird:
     r=pygame.Rect(100,250,30,30)
     speed=0
     g=0.5
-    def flap(self):
-        self.speed=0
-        self.speed=-10
-    def gravity(self):
-        self.speed+=self.g
-        self.r.y += self.speed
     def display(self):
         screen.blit(images["bird"],self.r)
 
