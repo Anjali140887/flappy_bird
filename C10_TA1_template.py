@@ -4,9 +4,6 @@ clock=pygame.time.Clock()
 width=400
 height=600
 screen = pygame.display.set_mode((width,height))
-images={}
-images["bg1"] = pygame.image.load("D:/Flappy for AI/bg1.png").convert_alpha()
-images["base"] = pygame.image.load("D:/Flappy for AI/base.png").convert_alpha()
 ## Space for the code to be written ##
 while True:
     screen.fill((50,150,255))
